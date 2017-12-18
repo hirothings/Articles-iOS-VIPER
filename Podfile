@@ -5,7 +5,7 @@ use_frameworks!
 target 'Articles' do
   pod 'AlamofireObjectMapper', '~> 4.0'
   pod 'Kingfisher', '~> 3.0'
-  pod 'PKHUD', :git => 'https://github.com/toyship/PKHUD.git'
+  pod 'PKHUD', :git => 'https://github.com/pkluz/PKHUD.git', :branch => 'release/swift4'
   pod 'R.swift'
   pod 'RxSwift', '3.0'
 end
